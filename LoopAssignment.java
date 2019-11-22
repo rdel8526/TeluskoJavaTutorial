@@ -7,4 +7,10 @@ public class LoopAssignment {
 		} System.out.println();
 	}
 	
+	for(int q = 65; q <= 70; q++){
+            for(int w = 65; w <= q; w++) {
+                char ch = (char)w;
+                System.out.print(ch + " ");
+            } System.out.println();
+	
 }
